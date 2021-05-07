@@ -1,0 +1,31 @@
+{
+  "name": "steam-annoncement-publisher",
+  "version": "1.0.0",
+  "description": "a nodejs App to chek RSS feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasBacheley/steam-annoncement-publisher.git"
+  },
+  "keywords": [
+    "steam",
+    "annoncement",
+    "publisher"
+  ],
+  "author": "https://github.com/ThomasBacheley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasBacheley/steam-annoncement-publisher/issues"
+  },
+  "homepage": "https://github.com/ThomasBacheley/steam-annoncement-publisher#readme",
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8",
+    "fs": "0.0.1-security",
+    "luxon": "^1.26.0",
+    "rss-parser": "^3.12.0",
+    "twitter-webhooks": "^0.3.3"
+  }
+}
